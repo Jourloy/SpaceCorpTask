@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+    app:
+        container_name: SpaceCorp_Backend
+        build:
+            context: .
+        volumes:
+            - .:/app
+            - /app/node_modules
+        command: yarn start:dev
+        env_file:
+            - .env
+        ports:
+            - "7372:7372"
+        restart: always
+
+    mongo:
+        container_name: SpaceCorp_Mongo
+        image: mongo:latest
+        ports:
+            - '0.0.0.0:27017:27017'
+networks:
+    back:
+volumes:
+    app:
