@@ -82,9 +82,9 @@ By default app create admin user. Look into .env for credentials
 
 You can open local swagger documentation on http://localhost:5000/api
 
-## Limits
+### Limits
 
-### Default
+#### Default
 
 **Limit:** 10 requests in 60 seconds
 
@@ -101,4 +101,13 @@ Worked on:
 	<a href="" target="_blank"><img src="https://img.shields.io/static/v1?label=&message=NEST.js&logo=nestjs&style=for-the-badge&labelColor=000000&color=000000"/></a>
 	<a href="" target="_blank"><img src="https://img.shields.io/static/v1?label=&message=Docker&logo=Docker&style=for-the-badge&labelColor=000000&color=000000"/></a>
 	<a href="" target="_blank"><img src="https://img.shields.io/static/v1?label=&message=Mongo&logo=MongoDB&style=for-the-badge&labelColor=000000&color=000000"/></a>
+</div>
+
+<h1 align="center">
+	You can also check my other projects
+</h1>
+
+<div align="center">
+	<a href="https://github.com/Jourloy/Backend" target="_blank"><img src="https://img.shields.io/static/v1?label=&message=Backend&style=for-the-badge&labelColor=000000&color=000000"/></a>
+	<a href="https://github.com/Jourloy/Frontend" target="_blank"><img src="https://img.shields.io/static/v1?label=&message=Frontend&style=for-the-badge&labelColor=000000&color=000000"/></a>
 </div>
